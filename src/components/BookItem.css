@@ -1,0 +1,41 @@
+.book-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 16px 0;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fafafa;
+}
+
+.book-image {
+  width: 100px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.book-content {
+  flex: 1;
+}
+
+.book-title {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.toggle-btn {
+  margin: 8px 0;
+  padding: 6px 12px;
+  cursor: pointer;
+  background: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.book-description {
+  font-size: 0.95rem;
+  color: #333;
+}
